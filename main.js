@@ -890,7 +890,7 @@ function init() {
             }else if(state == 'css'){
                 textFrame.visible = false;
                 arrowDown.visible = false;
-                imgElement.src = ''
+                imgElement.src = ''//sla
                 imgElement.src = '/src/img/euimgzap.jpg'
                 screenFrame.scale.set(1,1,1)
                 screenElement.textContent = 'Linguagem: CSS\r\n\r\n'
