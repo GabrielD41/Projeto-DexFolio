@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio pokedex</title>
+  </head>
+  <body>
+    <button id="frente1"><img id="language" src="src/img/icons/language.png"/></button>
+    <button id="frente2"><img id="tutorial" src="src/img/icons/question.png"/></button>
+    <button id="frente3"><img id="sound" src="src/img/icons/on.png"/></button>
+    
+    <figure id="mainScreen">
+      <img src="/src/img/logo.png"/>
+      <button id="buttonPlay">PLAY</button>
+    </figure>
+
+    <div id="tutorialDiv">
+      <button id="closeButton">X</button>
+      <button class="tutorialButton" id="backButton">Back</button>
+          <figure id="tutorialfig">
+              <h1 id="ptTitle">Como Abrir</h1>
+              <h1 id="enTitle">How to open</h1>
+              <img id="tutorialImg" src="/src/img/tutorial/1.png"/>
+              <figcaption id="tutorialFigCaption">
+                  Aperte a tecla espaço ou clique no botão amarelo para abrir a pokedex<br>
+                  Press the space key or click on the yellow button to open the pokedex
+              </figcaption>
+          </figure>
+      <button class="tutorialButton" id="nextButton">Next</button>
+
+    <canvas id="bg"></canvas>
+    <script type="module" src="/main.js"></script>
+    
+  </body>
+</html>
